@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+
+head {
+    background-color: rgba(0, 5, 10, 0.986);
+}
+
+body {
+    background-color: rgba(0, 5, 10, 0.986);
+    height: 120vh;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .col-6 {width: 100%;}
+    .col-12 {width: 100%;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .col-6 {width: 100%;}
+    .col-12 {width: 100%;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .col-6 {width: 50%;}
+    .col-12 {width: 100%;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .col-6 {width: 50%;}
+    .col-12 {width: 100%;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) *//*
+  @media only screen and (min-width: 1200px) {
+    .col {width: pink;}
+  }
+*/
+
+  textarea {
+      width: 100%;
+      height: 50vh;
+      border-radius: 1%;
+      resize: none;
+      padding: 5px;
+      color: white;
+      background-color: black;
+      border: none;
+  }
+
+  .btn-diff {
+      display: block;
+      width: 105px;
+      height: 3%;
+      border-radius: 15px;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px 5px;
+      color: black;
+      font-size: larger;
+      font-weight: bolder;
+      background-color: aqua;
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .btn-diff:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+
+  .result {
+      color: white;
+  }
+
+  .str-add {
+      color: yellowgreen;
+      background-color: black;
+  }
+
+  .str-rm {
+    color: red;
+    background-color: black;
+}
+
+.result {
+    padding: 2%;
+}
